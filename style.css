@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body,button {
+    font-family: 'Roboto', sans-serif;
+}
+button {
+    cursor: pointer;
+    border: 0;
+}
+header {
+    background-color: transparent;
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    padding: 40px 0 0 72px;
+}
+body.home,body.universe,body.exploration {
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+body.home {
+    background-image: url('./assets/background-img1.png');
+}
+body.universe {
+    background-image: url('./assets/background-img2.png');
+}
+body.exploration {
+    background-image: url('./assets/background-img3.png');
+}
+.home1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 63vh;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 125%;
+    color: hsla(240, 9%, 89%, 1);   
+}
+section {
+    padding: 63px 0px 0px 6%;
+}
+.home1 h1 {
+    margin-top: -0.5%;
+    margin-bottom: 1%;
+}
+a {
+    text-decoration: none;
+}
+.home button {
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    gap: 8px;
+    margin-top: 1%;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background: transparent;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 24px;
+}
+.home a {    
+    padding: 12px 32px;
+}
+.universe a {
+    padding: 12px 32px;
+}
+.universe h1 {
+    font-size: 65.5px;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.universe p {
+    width: 648px;
+    height: 203px;
+    color: #E1E1E6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.exploration a {
+    padding: 12px 32px;
+}
+.exploration h1 {
+    font-size: 65.5px;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.exploration p {
+    width: 648px;
+    height: 203px;
+    color: #E1E1E6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.bt {
+    display: flex;
+    gap: 23.5px;
+}
+.bt a {
+    border: none;
+    background: none;
+    color: hsla(240, 7%, 78%, 1);
+    font-size: 21px;
+    font-weight: 400;
+}
+a span {
+    color: hsla(0, 0%, 100%, 1);
+    font-weight: bold;
+    font-size: 24px;
+}
+
